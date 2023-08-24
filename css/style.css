@@ -44,3 +44,18 @@ a:hover {
   margin-top: 10px;
   box-shadow: 0 0;
 }
+
+.activity {
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 100ms;
+  cursor: pointer;
+}
+
+.activity:hover {
+  background-color: #5495ff;
+}
+
+.activity:active {
+  transform: scale(0.95);
+}
